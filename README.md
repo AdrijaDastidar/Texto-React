@@ -37,8 +37,4 @@ Texto is a web application designed to manipulate and analyze text input. Whethe
 
 Contributions are welcome! If you have any suggestions, feature requests, or find any issues, please create a GitHub issue or submit a pull request.
 
----
-
-**Note:**
-Routing codes have been commented out in the source code due to GitHub Pages not supporting normal BrowserRouter. Using BrowserRouter can result in a 404 error when accessing routes directly. 
 
