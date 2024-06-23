@@ -12,9 +12,13 @@ function App() {
       <Navbar title="Texto" />
       <div className="container">
         <Routes>
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/" element={<TextForm heading="Welcome to texto" />} />
+          <Route extact path="/About" element={<About />} />
+          <Route extact path="/Contact" element={<Contact />} />
+          <Route
+            extact
+            path="/Texto-React-Project"
+            element={<TextForm heading="Welcome to texto" />}
+          />
         </Routes>
       </div>
     </Router>

@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
@@ -8,9 +8,9 @@ export default function Navbar(props) {
       <header>
         <h2 className="logo">{props.title}</h2>
         <nav className="navigation">
-          <link to="/">Home</link>
-          <link to="/About">About</link>
-          <link to="/Contact">Contact Us</link>
+          <Link to="/Texto-React-Project">Home</Link>
+          <Link to="/About">About</Link>
+          <Link to="/Contact">Contact Us</Link>
         </nav>
       </header>
     </div>

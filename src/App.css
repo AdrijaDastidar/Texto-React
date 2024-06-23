@@ -21,7 +21,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: var(--color-white);
-  background-image: url("D:\react\texto\src\components\bg.jpg");
+  background-image: url("D:\react\Texto-React\src\components\bg.jpg");
   background-size: cover;
   background-position: center;
   margin: 0;
