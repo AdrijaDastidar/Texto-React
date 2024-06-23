@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom"; // Correctly import Link from react-router-dom
+//import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
   return (
@@ -8,9 +8,9 @@ export default function Navbar(props) {
       <header>
         <h2 className="logo">{props.title}</h2>
         <nav className="navigation">
-          <Link to="/">Home</Link>
-          <Link to="/About">About</Link>
-          <Link to="/Contact">Contact Us</Link>
+          <a herf="#">Home</a>
+          <a herf="#">About</a>
+          <a herf="#">Contact Us</a>
         </nav>
       </header>
     </div>
