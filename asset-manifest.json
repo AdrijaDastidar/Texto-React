@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Texto-React-Project/static/css/main.fcdcec47.css",
-    "main.js": "/Texto-React-Project/static/js/main.2f6e6f72.js",
-    "static/js/453.8cd82758.chunk.js": "/Texto-React-Project/static/js/453.8cd82758.chunk.js",
-    "static/media/bg.jpg": "/Texto-React-Project/static/media/bg.4960d330b20330c82394.jpg",
-    "index.html": "/Texto-React-Project/index.html",
-    "main.fcdcec47.css.map": "/Texto-React-Project/static/css/main.fcdcec47.css.map",
-    "main.2f6e6f72.js.map": "/Texto-React-Project/static/js/main.2f6e6f72.js.map",
-    "453.8cd82758.chunk.js.map": "/Texto-React-Project/static/js/453.8cd82758.chunk.js.map"
+    "main.css": "/Texto-React/static/css/main.174b0a07.css",
+    "main.js": "/Texto-React/static/js/main.4181df56.js",
+    "static/js/453.8cd82758.chunk.js": "/Texto-React/static/js/453.8cd82758.chunk.js",
+    "static/media/bg.jpg": "/Texto-React/static/media/bg.4960d330b20330c82394.jpg",
+    "index.html": "/Texto-React/index.html",
+    "main.174b0a07.css.map": "/Texto-React/static/css/main.174b0a07.css.map",
+    "main.4181df56.js.map": "/Texto-React/static/js/main.4181df56.js.map",
+    "453.8cd82758.chunk.js.map": "/Texto-React/static/js/453.8cd82758.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcdcec47.css",
-    "static/js/main.2f6e6f72.js"
+    "static/css/main.174b0a07.css",
+    "static/js/main.4181df56.js"
   ]
 }
