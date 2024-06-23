@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar title="Texto" />
       <div className="container">
-        <TextForm />
+        <TextForm heading="Welcome To Texto" />
       </div>
     </>
     // <Router>
