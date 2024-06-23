@@ -8,7 +8,7 @@ export default function Navbar(props) {
       <header>
         <h2 className="logo">{props.title}</h2>
         <nav className="navigation">
-          <Link to="/Texto-React-Project">Home</Link>
+          <Link to="/Texto-React">Home</Link>
           <Link to="/About">About</Link>
           <Link to="/Contact">Contact Us</Link>
         </nav>

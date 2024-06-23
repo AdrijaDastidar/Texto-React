@@ -16,7 +16,7 @@ function App() {
           <Route extact path="/Contact" element={<Contact />} />
           <Route
             extact
-            path="/Texto-React-Project"
+            path="/Texto-React"
             element={<TextForm heading="Welcome to texto" />}
           />
         </Routes>
