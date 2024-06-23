@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root styles */
+:root {
+  --color-white: #ffffff;
+  --color-yellow: #fde02f;
+}
+
+/* Body styles */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  background-image: url("D:\react\texto\src\components\bg.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+/* Logo styles */
+.logo {
+  color: var(--color-yellow);
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+  font-weight: 800;
+  user-select: none;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+/* Navigation links styles */
+.navigation a {
+  position: relative;
+  font-size: 20px;
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.navigation a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: var(--color-white);
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.navigation a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  margin: 100px auto 0 auto;
+  padding: 50px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 767px) {
+  .navigation a {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+}
