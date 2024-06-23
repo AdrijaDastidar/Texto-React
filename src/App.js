@@ -8,22 +8,16 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar title="Texto" />
       <div className="container">
-        <TextForm heading="Welcome To Texto" />
+        <Routes>
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/" element={<TextForm heading="Welcome to texto" />} />
+        </Routes>
       </div>
-    </>
-    // <Router>
-    //   <Navbar title="Texto" />
-    //   <div className="container">
-    //     <Routes>
-    //       <Route path="/About" element={<About />} />
-    //       <Route path="/Contact" element={<Contact />} />
-    //       <Route path="/" element={<TextForm heading="Welcome to texto" />} />
-    //     </Routes>
-    //   </div>
-    // </Router>
+    </Router>
   );
 }
 
