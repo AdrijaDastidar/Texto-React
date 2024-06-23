@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+### Texto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Texto is a web application designed to manipulate and analyze text input. Whether you need to **convert text to uppercase** or **lowercase**, **reverse the text**, or even **invert the case of characters**, Texto provides a simple interface to perform these operations. Additionally, it offers a summary of the text input, including **character count**, **word count**, **sentence count**, and **estimated reading time**.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Text Manipulation:
 
-### `npm start`
+- **Convert text to uppercase**
+- **Convert text to lowercase**
+- **Reverse the text order**
+- **Invert the case of characters**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Text Analysis:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Character count**
+- **Word count**
+- **Sentence count**
+- **Estimated reading time** (based on average reading speed)
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Input Text:**
+   Enter your text in the textarea provided on the main page.
 
-### `npm run build`
+### Text Manipulation:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Use buttons to **convert text to uppercase** or **lowercase**
+- **Reverse the order** of the text
+- **Invert the case of characters**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Text Analysis:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- View the summary section to see **character count**, **word count**, **sentence count**, and **estimated reading time**
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you have any suggestions, feature requests, or find any issues, please create a GitHub issue or submit a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Note:**
+Routing codes have been commented out in the source code due to GitHub Pages not supporting normal BrowserRouter. Using BrowserRouter can result in a 404 error when accessing routes directly. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
