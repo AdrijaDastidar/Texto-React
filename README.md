@@ -1,9 +1,10 @@
-### Texto
+## Texto 
 
 Texto is a web application designed to manipulate and analyze text input. Whether you need to **convert text to uppercase** or **lowercase**, **reverse the text**, or even **invert the case of characters**, Texto provides a simple interface to perform these operations. Additionally, it offers a summary of the text input, including **character count**, **word count**, **sentence count**, and **estimated reading time**.
 
-## Features
+Link - https://adrijadastidar.github.io/Texto-React/
 
+## Features
 ### Text Manipulation:
 
 - **Convert text to uppercase**
