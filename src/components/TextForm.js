@@ -67,40 +67,37 @@ export default function TextForm(props) {
           ></textarea>
         </div>
         <button
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 my-2"
           onClick={handle_u_click}
           type="button"
         >
           Convert to Upper Case
         </button>
         <button
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 my-2"
           onClick={handle_l_click}
           type="button"
         >
           Convert to Lower Case
         </button>
         <button
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 my-2"
           onClick={handle_it_click}
           type="button"
-          style={{ marginTop: "10px" }}
         >
           Inverse Text
         </button>
         <button
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 my-2"
           onClick={handle_ic_click}
-          style={{ marginTop: "10px" }}
           type="button"
         >
           Inverse Case
         </button>
         <button
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 my-2"
           onClick={handle_c_click}
           type="button"
-          style={{ marginTop: "10px" }}
         >
           Clear Text
         </button>
@@ -108,7 +105,6 @@ export default function TextForm(props) {
           className="btn btn-primary mx-2"
           onClick={handle_cp_click}
           type="button"
-          style={{ marginTop: "10px" }}
         >
           Copy Text
         </button>
@@ -117,8 +113,7 @@ export default function TextForm(props) {
       <h2>Summary</h2>
       <li>No of Characters - {text.length}</li>
       <li>
-        No of words -{" "}
-        {text.split(/\s+/).filter((word) => word.length > 0).length}
+        No of words - {text.split(" ").filter((word) => word.length > 0).length}
       </li>
       <li>
         No of sentences -{" "}
